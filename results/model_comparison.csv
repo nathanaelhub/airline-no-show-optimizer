@@ -1,0 +1,6 @@
+Model,Accuracy,Accuracy (Optimal),Precision,Recall,F1 Score,AUC Score,Revenue Impact ($),Revenue per Passenger ($),Overbooking Accuracy,Optimal Threshold
+baseline,0.8833,0.9358,0.0625,0.0584,0.0604,0.5,-46200.0,-19.25,0.1444,0.0606
+logistic_regression,1.0,1.0,1.0,1.0,1.0,1.0,36960.0,15.4,1.0,0.0101
+random_forest,1.0,1.0,1.0,1.0,1.0,1.0,36960.0,15.4,1.0,0.0707
+xgboost,1.0,1.0,1.0,1.0,1.0,1.0,36960.0,15.4,1.0,0.0101
+lightgbm,1.0,1.0,1.0,1.0,1.0,1.0,36960.0,15.4,1.0,0.0101

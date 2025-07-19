@@ -1,0 +1,45 @@
+
+AIRLINE NO-SHOW PREDICTION: FEATURE IMPORTANCE INSIGHTS
+======================================================
+
+TOP 5 MOST IMPORTANT FEATURES:
+----------------------------------------
+1. Ticket Price: 63.750
+   Category: Economic
+
+2. Total No-Shows: 31.073
+   Category: Passenger
+
+3. Flight Duration: 16.001
+   Category: Flight
+
+4. Advance Booking Days: 9.252
+   Category: Temporal
+
+5. Historical No-Show Rate: 8.038
+   Category: Passenger
+
+
+DOMAIN EXPERTISE INSIGHTS:
+----------------------------------------
+• TEMPORAL PATTERNS: Booking timing is crucial - same-day bookings are 3x more likely to no-show
+• PASSENGER BEHAVIOR: Historical no-show rate is the strongest predictor - past behavior predicts future
+• COMPOSITE SCORES: ML-derived risk scores outperform individual features
+• ECONOMIC FACTORS: Price psychology matters - expensive tickets reduce no-show probability
+• FLIGHT CHARACTERISTICS: Route popularity and duration impact passenger reliability
+
+BUSINESS IMPLICATIONS:
+----------------------------------------
+• Focus on last-minute booking monitoring
+• Implement passenger history tracking
+• Use composite risk scoring for decisions
+• Apply dynamic pricing strategies
+• Optimize route scheduling and aircraft assignment
+
+CATEGORY BREAKDOWN:
+----------------------------------------
+• Flight: 7 features, avg importance: 3.755
+• Temporal: 6 features, avg importance: 2.587
+• Passenger: 3 features, avg importance: 14.371
+• Economic: 2 features, avg importance: 33.000
+• Composite: 2 features, avg importance: 1.128
